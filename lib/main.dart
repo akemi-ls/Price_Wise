@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:price_wise/Provider/cart_provider.dart';
 import 'package:price_wise/Provider/favorite_provider.dart';
 import 'package:price_wise/constants.dart';
-import 'package:price_wise/screens/Profile/login.dart';
-//import 'package:price_wise/screens/nav_bar_screen.dart';
+import 'package:price_wise/screen/splash.dart';
+//import 'package:price_wise/screens/Profile/login.dart';
 import 'package:provider/provider.dart';
 
 
@@ -27,7 +27,8 @@ class PriceWise extends StatelessWidget {
         primaryColor: kprimaryColor,
         scaffoldBackgroundColor: Colors.white,
       ),
-      home:Login(),
+      home:Splash(),
     ),
   );
 }
+

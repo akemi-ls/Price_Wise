@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:price_wise/screens/Home/Widget/product_model.dart';
+import 'package:price_wise/screen/Home/Widget/product_model.dart';
 import 'package:provider/provider.dart';
 
 class FavoriteProvider extends ChangeNotifier {
