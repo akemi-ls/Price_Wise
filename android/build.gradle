@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 buildscript {
     ext.kotlin_version = '1.8.10'
+=======
+/*buildscript {
+    ext.kotlin_version = '1.9.0'
+>>>>>>> 79de6ee (Update repository with latest changes)
     repositories {
         google()
         mavenCentral()
@@ -15,3 +20,31 @@ allprojects {
         mavenCentral()
     }
 }
+<<<<<<< HEAD
+=======
+*/
+
+buildscript {
+    ext.kotlin_version = '1.9.0'
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.2.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.layout.buildDirectory
+}
+
+>>>>>>> 79de6ee (Update repository with latest changes)

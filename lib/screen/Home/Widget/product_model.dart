@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+class ShopInfo {
+  final String name;
+  final String image;
+  final double price;
+  final double rating;
+
+  ShopInfo({
+    required this.name,
+    required this.image,
+    required this.price,
+    required this.rating,
+  });
+}
+
+>>>>>>> 79de6ee (Update repository with latest changes)
 class Product {
   final String title;
   final String description;
@@ -6,7 +23,11 @@ class Product {
   final double price;
   final String category;
   final double rate;
+<<<<<<< HEAD
 
+=======
+  final List<ShopInfo> shops;
+>>>>>>> 79de6ee (Update repository with latest changes)
 
   Product({
     required this.title,
@@ -16,9 +37,37 @@ class Product {
     required this.price,
     required this.category,
     required this.rate,
+<<<<<<< HEAD
   });
 }
 
+=======
+    required this.shops,
+  });
+}
+
+final List<ShopInfo> defaultShops = [
+  ShopInfo(
+    name: "Shopee",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Shopee_logo.svg",
+    price: 799,
+    rating: 4.8,
+  ),
+  ShopInfo(
+    name: "Lazada",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Lazada_%282019%29.svg",
+    price: 749,
+    rating: 4.7,
+  ),
+  ShopInfo(
+    name: "TikTok",
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/09/TikTok_logo.svg",
+    price: 759,
+    rating: 4.6,
+  ),
+];
+
+>>>>>>> 79de6ee (Update repository with latest changes)
 
 
 final List<Product> all = [
@@ -31,6 +80,10 @@ final List<Product> all = [
     category: "Gaming",
     review: "(10K Reviews)",
     rate: 4.8,
+<<<<<<< HEAD
+=======
+    shops: defaultShops,
+>>>>>>> 79de6ee (Update repository with latest changes)
   ),
   Product(
     title: "Watch",
@@ -41,6 +94,10 @@ final List<Product> all = [
     category: "Women's Apparel",
     review: "(10K Reviews)",
     rate: 4.8,
+<<<<<<< HEAD
+=======
+    shops: defaultShops,
+>>>>>>> 79de6ee (Update repository with latest changes)
   ),
   Product(
     title: "Windbreaker Jacket",
@@ -51,6 +108,10 @@ final List<Product> all = [
     category: "Men's Apparel",
     review: "(10K Reviews)",
     rate: 4.8,
+<<<<<<< HEAD
+=======
+    shops: defaultShops,
+>>>>>>> 79de6ee (Update repository with latest changes)
   ),
   Product(
     title: "Poliflask",
@@ -61,6 +122,10 @@ final List<Product> all = [
     category: "School",
     review: "(10K Reviews)",
     rate: 4.8,
+<<<<<<< HEAD
+=======
+    shops: defaultShops,
+>>>>>>> 79de6ee (Update repository with latest changes)
   ),
   Product(
     title: "Bag",
@@ -71,6 +136,10 @@ final List<Product> all = [
     category: "School",
     review: "(10K Reviews)",
     rate: 4.8,
+<<<<<<< HEAD
+=======
+    shops: defaultShops,
+>>>>>>> 79de6ee (Update repository with latest changes)
   ),
   Product(
     title: "Dress",
@@ -81,6 +150,10 @@ final List<Product> all = [
     category: "Women's Apparel",
     review: "(10K Reviews)",
     rate: 4.8,
+<<<<<<< HEAD
+=======
+    shops: defaultShops,
+>>>>>>> 79de6ee (Update repository with latest changes)
   ), 
 ];
 
@@ -97,6 +170,10 @@ final List<Product> mensApparel = [
     category: "Men's Apparel",
     review: "(10K Reviews)",
     rate: 4.8,
+<<<<<<< HEAD
+=======
+    shops: defaultShops,
+>>>>>>> 79de6ee (Update repository with latest changes)
   ),
 ];
 
@@ -110,6 +187,10 @@ final List<Product> womensApparel = [
     category: "Men's Apparel",
     review: "(10K Reviews)",
     rate: 4.8,
+<<<<<<< HEAD
+=======
+    shops: defaultShops,
+>>>>>>> 79de6ee (Update repository with latest changes)
   ),
 ];
 
@@ -123,6 +204,10 @@ final List<Product> school = [
     category: "Men's Apparel",
     review: "(10K Reviews)",
     rate: 4.8,
+<<<<<<< HEAD
+=======
+    shops: defaultShops,
+>>>>>>> 79de6ee (Update repository with latest changes)
   ),
 ];
 
@@ -136,6 +221,10 @@ final List<Product> toys = [
     category: "Men's Apparel",
     review: "(10K Reviews)",
     rate: 4.8,
+<<<<<<< HEAD
+=======
+    shops: defaultShops,
+>>>>>>> 79de6ee (Update repository with latest changes)
   ),
 ];
 
@@ -149,6 +238,10 @@ final List<Product> gaming = [
     category: "Men's Apparel",
     review: "(10K Reviews)",
     rate: 4.8,
+<<<<<<< HEAD
+=======
+    shops: defaultShops,
+>>>>>>> 79de6ee (Update repository with latest changes)
   ),
 ];
 
@@ -162,6 +255,10 @@ final List<Product> electronics= [
     category: "Men's Apparel",
     review: "(10K Reviews)",
     rate: 4.8,
+<<<<<<< HEAD
+=======
+    shops: defaultShops,
+>>>>>>> 79de6ee (Update repository with latest changes)
   ),
 ];
 
@@ -175,6 +272,10 @@ final List<Product> beauty = [
     category: "Men's Apparel",
     review: "(10K Reviews)",
     rate: 4.8,
+<<<<<<< HEAD
+=======
+    shops: defaultShops,
+>>>>>>> 79de6ee (Update repository with latest changes)
   ),
 ];
 
@@ -188,5 +289,9 @@ final List<Product> babies = [
     category: "Men's Apparel",
     review: "(10K Reviews)",
     rate: 4.8,
+<<<<<<< HEAD
+=======
+    shops: defaultShops,
+>>>>>>> 79de6ee (Update repository with latest changes)
   ),
 ];

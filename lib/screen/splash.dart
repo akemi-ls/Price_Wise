@@ -2,7 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:price_wise/screen/Start/login_screen.dart';
 
 class Splash extends StatefulWidget {
+<<<<<<< HEAD
   const Splash({Key? key}) : super(key: key);  // Optional: Adds key support
+=======
+  const Splash({super.key});  // Optional: Adds key support
+>>>>>>> 79de6ee (Update repository with latest changes)
 
   @override
   _SplashState createState() => _SplashState();

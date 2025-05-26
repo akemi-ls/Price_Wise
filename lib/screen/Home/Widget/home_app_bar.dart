@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:price_wise/constants.dart';
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 79de6ee (Update repository with latest changes)
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar({
     super.key,
@@ -9,6 +12,7 @@ class CustomAppBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
@@ -25,3 +29,24 @@ class CustomAppBar extends StatelessWidget {
       );
   }
 }
+=======
+    return Container(
+      color: kcontentColor, 
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: const [
+          Text(
+            'PriceWise',
+            style: TextStyle(
+              fontSize: 12,
+              fontWeight: FontWeight.bold,
+              color: Colors.black, 
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+>>>>>>> 79de6ee (Update repository with latest changes)

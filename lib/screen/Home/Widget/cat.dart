@@ -10,6 +10,13 @@ class Category {
 
 final List<Category> categoriesList = [ 
   Category(
+<<<<<<< HEAD
+=======
+    title: "All",
+    image: "images/jacket.png",
+  ),
+  Category(
+>>>>>>> 79de6ee (Update repository with latest changes)
     title: "Men",
     image: "images/jacket.png",
   ),

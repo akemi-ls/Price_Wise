@@ -22,7 +22,11 @@ class DetailAppBar extends StatelessWidget {
           onPressed: (){
             Navigator.pop(context);
           },
+<<<<<<< HEAD
           icon: Icon(Icons.share_outlined),
+=======
+          icon: Icon(Icons.arrow_back_ios_rounded),
+>>>>>>> 79de6ee (Update repository with latest changes)
           ),
           const Spacer(),
           IconButton(

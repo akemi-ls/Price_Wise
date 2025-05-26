@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({Key? key}) : super(key: key);
@@ -8,6 +9,20 @@ class SignInScreen extends StatefulWidget {
 }
 
 class _SignInState extends State<SignInScreen> {
+=======
+//import 'package:price_wise/screen/Home/home_screen.dart';
+//import 'package:price_wise/screen/Home/main_screen.dart';
+import 'package:price_wise/screen/nav_bar_screen.dart';
+
+class SignUpScreen extends StatefulWidget {
+  const SignUpScreen({super.key});
+
+  @override
+  _SignUpScreenState createState() => _SignUpScreenState();
+}
+
+class _SignUpScreenState extends State<SignUpScreen> {
+>>>>>>> 79de6ee (Update repository with latest changes)
   final _formKey = GlobalKey<FormState>();
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
@@ -159,8 +174,14 @@ class _SignInState extends State<SignInScreen> {
                       GestureDetector(
                         onTap: () {
                           if (_formKey.currentState!.validate()) {
+<<<<<<< HEAD
                             ScaffoldMessenger.of(context).showSnackBar(
                               const SnackBar(content: Text("Account Created Successfully!")),
+=======
+                            Navigator.pushReplacement(
+                              context,
+                              MaterialPageRoute(builder: (context) => const BottomNavBar()),
+>>>>>>> 79de6ee (Update repository with latest changes)
                             );
                           }
                         },

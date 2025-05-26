@@ -68,8 +68,13 @@ class AddToCart extends StatelessWidget {
              },
              child: Container(
               height: 55,
+<<<<<<< HEAD
               color: kprimaryColor,
               decoration: BoxDecoration(
+=======
+                decoration: BoxDecoration(
+                color: kprimaryColor,
+>>>>>>> 79de6ee (Update repository with latest changes)
                 borderRadius: BorderRadius.circular(50),
               ),
               alignment: Alignment.center,

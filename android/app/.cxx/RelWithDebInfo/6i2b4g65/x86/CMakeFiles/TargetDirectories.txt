@@ -1,0 +1,2 @@
+C:/Users/Admin/Documents/mobile/Price_Wise/android/app/.cxx/RelWithDebInfo/6i2b4g65/x86/CMakeFiles/edit_cache.dir
+C:/Users/Admin/Documents/mobile/Price_Wise/android/app/.cxx/RelWithDebInfo/6i2b4g65/x86/CMakeFiles/rebuild_cache.dir

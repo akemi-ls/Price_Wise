@@ -45,7 +45,11 @@ class ProductCard extends StatelessWidget {
                     ),
                   ),
                 ),
+<<<<<<< HEAD
                 SizedBox(height: 10),
+=======
+                const SizedBox(height: 10),
+>>>>>>> 79de6ee (Update repository with latest changes)
                 Padding(
                   padding: EdgeInsets.only(left: 10),
                   child: Text(

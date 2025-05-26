@@ -61,9 +61,15 @@ class _DetailScreenState extends State<DetailScreen> {
             ),
             const SizedBox(height: 20),
             Container(
+<<<<<<< HEAD
               width: double.infinity,
               color: Colors.white, // ✅ Move color here
               decoration: BoxDecoration(
+=======
+              width: double.infinity, 
+              decoration: BoxDecoration(
+                color: Colors.white,
+>>>>>>> 79de6ee (Update repository with latest changes)
                 borderRadius: BorderRadius.only(
                   topRight: Radius.circular(40),
                   topLeft: Radius.circular(40),
